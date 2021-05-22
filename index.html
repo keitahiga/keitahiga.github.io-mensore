@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>めんそ～れChannel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- 自サイトのCSS -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!--Animate.cssのCSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+
+</head>
+
+<body>
+<!--ログインフォーム-->
+  <div  class = "login-modal-wrapper" id = "login">
+    <div class = "input-container">
+      <div id = "close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div id = "login-form">
+        <h1>めんそ～れChannelに登録</h1>
+      <form>
+        <input type="text" id = "login-email" class = "form-group form-control" placeholder = "メールアドレス">
+        <input type="text" id = "login-password" class = "form-group form-control" placeholder = "パスワード">
+
+        <button type="password" id="login-password" class = "btn-primary">チャットを始める</button>
+        <p class="form-text">初めての方は、登録するパスワードを入力してください</p>
+      </form>
+
+      </div>
+    </div>
+  </div>
+<!--header-->
+  <header>
+    <div class = "container">
+      <h2>めんそ～れChannel</h2>
+      <p>めんそ～れChannelは沖縄に来る観光客や地元の人たちが<br>肉・魚・沖縄そば・居酒屋を対象に<br>定番のお店から穴場のお店まで共有することができる掲示板サイトです。<br>
+      めんそ～れChannelでおいしいお店を探索しよう！</p>
+      <button class="signup-show btn btn-success">チャットを始める</button>
+    </div>
+  </header>
+
+  <!--food-wrapper-->
+  <div id = "food-wrapper">
+    <div class = "container">
+      <div class = "heading">
+        <h3>-Pick up-</h3>
+      </div>
+      <div id = "foods" class = "row">
+        <div class = "animated food col-lg-3 col-md-6 col-sm-12 col-12">
+            <img src = "images/niku.jpg" alt = "niku">
+            <a href = "#" class = "food-btn" id="niku">肉</a>
+        </div>
+        <div class = "animated food col-lg-3 col-md-6 col-sm-12 col-12">
+            <img src = "images/fish.jpg" alt = "fish">
+            <a href = "#" class = "food-btn" id = "fish">魚</a>
+        </div>
+        <div class = "animated food col-lg-3 col-md-6 col-sm-12 col-12">
+            <img src = "images/soba.jpg" alt = "soba">
+            <a href = "#" class = "food-btn" id = "soba">沖縄そば</a>
+        </div>
+        <div class = "animated food col-lg-3 col-md-6 col-sm-12 col-12">
+            <img src = "images/alcohol.jpg" alt = "alcohol">
+            <a href = "#" class = "food-btn" id = "alcohol">居酒屋</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--message-wrapper-->
+  <div id = "message-wrapper">
+    <div class = "container">
+      <div class = "heading">
+        <h4>あなたも登録して、いいお店を共有しよう！</h4>
+      </div>
+      <button class="signup-show btn btn-success">チャットを始める</button>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div id = "Copyright">
+      <p>@2021 めんそ～れChannel</p>
+    </div>
+  </footer>
+
+  <!--Bootstrap JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS, then Font Awesome -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+  <!-- 自サイトのJavaScript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!--Waypoints.jsのJavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>

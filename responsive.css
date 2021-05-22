@@ -1,0 +1,103 @@
+@media (max-width:991px){
+  .input-container{
+    width:600px;
+    padding: 20px;
+    top: 10%;
+    left: 10%;
+  }
+
+  #login-form h1{
+    font-size:25px;
+  }
+
+  header h2{
+    font-size:55px;
+    letter-spacing:4px;
+  }
+  header p{
+    font-size:32px;
+  }
+  .heading h3{
+    font-size:40px;
+  }
+  .heading h4{
+    font-size:40px;
+  }
+}
+@media (max-width:768px){
+  .input-container {
+    width: 450px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    top: 15%;
+    left: 20%;
+  }
+  #login-form{
+    padding: 30px 0;
+  }
+  #login-form h1{
+    font-size:25px;
+  }
+  header h2{
+    font-size:50px;
+    letter-spacing:3px;
+  }
+  header p{
+    font-size:24px;
+  }
+  .heading h3{
+    font-size:45px;
+  }
+  .heading h4{
+    font-size:45px;
+  }
+}
+
+@media (max-width:576px){
+  .input-container {
+    width: 330px;
+    padding: 20px 5px 10px;
+    top: 10%;
+    left: 11%;
+  }
+  #login-form{
+    padding: 15px 0;
+  }
+  #login-form h1{
+    font-size:25px;
+  }
+
+  header h2{
+    font-size:40px;
+    letter-spacing:3px;
+  }
+  header p{
+    font-size:20px;
+  }
+  .heading h3{
+    font-size:30px;
+  }
+  .heading h4{
+    font-size:30px;
+  }
+}
+
+@media (max-width:376px){
+  .input-container {
+    top: 10%;
+    left: 7%;
+  }
+}
+
+@media (max-width:320px){
+  .input-container {
+    width: 270px;
+    padding: 10px 5px;
+    top: 10%;
+    left: 8%;
+  }
+  .btn {
+    margin-top: 100px;
+  }
+}
+
