@@ -14,11 +14,6 @@ $('#close-modal').on('click',(e) => {
   $('#login').fadeOut();
 });
 
-/*各foodのボタンを押した時の動作*/
-$('#').on('click',(e) => {
-  $('#login').fadeIn();
-});
-
 // animatedクラスの付いた要素にwaypointを登録
 $('.animated').waypoint({
   handler(direction) {
