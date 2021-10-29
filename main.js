@@ -4,7 +4,7 @@ $('.signup-show').on('click',(e) => {
 });
 
 /*各foodのボタンを押した時の動作*/
-$('.food').on('click',(e) => {
+$('.food-btn').on('click',(e) => {
   $('#login').fadeIn();
 });
 
